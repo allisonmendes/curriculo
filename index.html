@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Currículo - Allison Mendes</title>
+  <meta name="description" content="Currículo de Allison Mendes: analista de sistemas, ERP Seven, WMS, infraestrutura, bancos de dados e AWS.">
+  <style>
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #1f2933; background: #e5e7eb; font: 10.5pt/1.25 Arial, sans-serif; }
+    .sheet { width: 210mm; height: 297mm; padding: 14mm 15mm; margin: 8mm auto; background: white; }
+    h1 { margin: 0 0 2mm; font-size: 21pt; color: #183b4e; }
+    .headline { margin: 0 0 2mm; font-size: 11pt; font-weight: bold; }
+    .contact { margin: 0 0 4mm; font-size: 9.5pt; }
+    h2 { margin: 3mm 0 2mm; padding-bottom: 1mm; border-bottom: 1px solid #b7c5ce; font-size: 11pt; color: #183b4e; }
+    h3 { margin: 2.5mm 0 0.5mm; font-size: 10.5pt; }
+    .role { margin: 0 0 1mm; font-weight: bold; font-size: 9.5pt; }
+    p { margin: 0 0 2mm; }
+    ul { margin: 0 0 2mm; padding-left: 4.5mm; }
+    li { margin-bottom: 0.8mm; }
+    a { color: inherit; text-decoration: none; }
+    .skills p { margin-bottom: 2.5mm; }
+    .profile { display: flex; gap: 24px; align-items: center; margin-bottom: 24px; }
+    .photo { width: 112px; height: 112px; flex-shrink: 0; border-radius: 50%; object-fit: cover; }
+    .download { display: inline-block; padding: 10px 16px; margin-top: 8px; color: white; background: #183b4e; border-radius: 6px; font-weight: bold; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 3px solid #217ca3; outline-offset: 4px; }
+    @media screen {
+      body { font-size: 16px; line-height: 1.6; }
+      .sheet { width: min(940px, calc(100% - 32px)); height: auto; padding: 36px; margin: 24px auto; border-radius: 12px; }
+      h1 { font-size: 32px; }
+      h2 { font-size: 18px; margin-top: 24px; }
+      h3 { font-size: 17px; margin-top: 20px; }
+      .headline { font-size: 16px; }
+      .contact, .role { font-size: 14px; }
+      li { margin-bottom: 8px; }
+    }
+    @media screen and (max-width: 600px) {
+      .sheet { width: calc(100% - 20px); padding: 24px 20px; margin: 10px auto; }
+      .profile { flex-direction: column; align-items: flex-start; gap: 16px; }
+      h1 { font-size: 28px; }
+      .contact { overflow-wrap: anywhere; }
+    }
+    @media print {
+      body { background: white; }
+      .sheet { margin: 0; break-after: page; }
+      .sheet:last-child { break-after: auto; }
+      .photo, .download { display: none; }
+      .profile { display: block; margin-bottom: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+  <section class="sheet" aria-label="Página 1">
+    <div class="page-content">
+      <header class="profile">
+      <img class="photo" src="allison-mendes.png" alt="Foto de Allison Mendes" width="112" height="112">
+      <div>
+      <h1>ALLISON MENDES</h1>
+      <p class="headline">Analista de Sistemas | ERP e Sistemas Integrados | Infraestrutura</p>
+      <p class="contact">
+        Londrina - PR | (43) 99981-9803 | <a href="mailto:allisonmendes@gmail.com">allisonmendes@gmail.com</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/allison-mendes-aa213a9">linkedin.com/in/allison-mendes-aa213a9</a>
+      </p>
+      <a class="download" href="curriculo-allison-mendes.pdf" download>Baixar currículo em PDF</a>
+      </div>
+      </header>
+      <h2>RESUMO</h2>
+      <p>Profissional de TI desde 2005, com experiência em ERP, infraestrutura, bancos de dados e AWS. Desenvolve e implanta sistemas integrados para produção industrial e armazém, conectando processos operacionais a dados rastreáveis. Combina análise de processos, sustentação de TI e desenvolvimento para apoiar a operação e a tomada de decisão.</p>
+      <h2>OBJETIVO PROFISSIONAL</h2>
+      <p>Atuar em regime CLT como Analista de Sistemas ERP, Analista de Sistemas Integrados ou Analista de Infraestrutura, com foco em sustentação, integração de sistemas, bancos de dados e cloud.</p>
+      <h2>EXPERIÊNCIA PROFISSIONAL</h2>
+      <h3>Rebouças Indústria de Plástico</h3>
+      <p class="role">Analista / Desenvolvedor de Sistemas Full Stack | nov/2024 - atual</p>
+      <ul>
+        <li>Analiso necessidades operacionais e desenvolvo e implanto uma plataforma com Angular, Node.js/Express e PostgreSQL, integrando apontamentos de montagem, embalagem e produção por injeção ao WMS, com acompanhamento em tempo real.</li>
+        <li>Desenvolvo fluxos de armazém para entrada e saída de estoque, montagem de pallets, endereçamento, movimentação, inventário, separação e expedição, com leitura de códigos de barras e registros de auditoria.</li>
+        <li>Integro dados do ERP Seven, consultando o banco AWORKS, e dispositivos ESP32 à plataforma, com validação de saldos, conciliação de cancelamentos e controles transacionais no PostgreSQL para preservar a consistência dos registros.</li>
+        <li>Desenvolvo dashboards de OEE, produção, armazenagem e despacho e integro o Metabase como BI, disponibilizando indicadores para análise operacional e apoio à gestão.</li>
+        <li>Analiso e atendo problemas de TI da indústria, resolvendo ocorrências ou encaminhando-as aos responsáveis técnicos pela solução.</li>
+      </ul>
+      <h3>Beltis</h3>
+      <p class="role">Prestação de serviços de infraestrutura de TI | ago/2023 - nov/2024</p>
+      <ul>
+        <li>Realizei manutenção em racks e dispositivos de rede, incluindo servidores, switches e antenas Ubiquiti, atendendo às necessidades de infraestrutura de TI.</li>
+      </ul>
+      <h3>Tata Consultancy Services</h3>
+      <p class="role">Analista de Sistemas | out/2022 - ago/2023</p>
+      <ul>
+        <li>Prestei suporte e analisei o ERP utilizado pela ADM LATAM, executando scripts PL/SQL em Oracle para atender solicitações de dados dos usuários.</li>
+        <li>Atendi ocorrências relacionadas à emissão de documentos fiscais, incluindo NF-e, MDF-e e CT-e, no suporte às rotinas do ERP.</li>
+        <li>Prestei suporte a sistemas de balanças rodoviárias e ferroviárias e configurei a captura de dados de equipamentos Motomco, utilizados na medição da qualidade de grãos.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="sheet" aria-label="Página 2">
+    <div class="page-content">
+      <h2>EXPERIÊNCIA PROFISSIONAL — CONTINUAÇÃO</h2>
+      <h3>Arandú Sistemas</h3>
+      <p class="role">Analista de Suporte ERP | mai/2022 - out/2022</p>
+      <ul>
+        <li>Coordenei a equipe de suporte, com dois colaboradores além de mim, e treinei clientes na utilização do ERP.</li>
+        <li>Apoiei operações de cadastros, NF-e, NFC-e, PDV, entrada de notas fiscais, trocas, consignações e gestão de múltiplas lojas.</li>
+        <li>Instalei e configurei o sistema e impressoras térmicas e de etiquetas para as rotinas dos clientes.</li>
+      </ul>
+      <h3>Muffato</h3>
+      <p class="role">Analista de Infraestrutura | out/2021 - jan/2022</p>
+      <ul>
+        <li>Realizei monitoramento do ambiente SAP Basis e da infraestrutura de rede com Zabbix, acompanhando a operação dos sistemas.</li>
+        <li>Gerenciei licenças do Office 365 e contas de e-mail dos colaboradores.</li>
+      </ul>
+      <h3>Guiainfo BaseERP</h3>
+      <p class="role">Analista de Sistemas ERP | jun/2009 - out/2020</p>
+      <ul>
+        <li>Implantei e prestei suporte aos sistemas ARES ERP e BaseERP, orientando e treinando usuários na utilização das soluções.</li>
+        <li>Preparei servidores de aplicação e configurei instâncias AWS EC2 com Windows Server e CentOS para os ambientes dos sistemas.</li>
+        <li>Realizei manutenção e configuração de bancos de dados Oracle 11g e XE.</li>
+        <li>Mantive computadores de clientes e configurei impressoras para as rotinas operacionais do ERP.</li>
+      </ul>
+      <h3>Salomon Informática</h3>
+      <p class="role">Técnico de Suporte | dez/2007 - jun/2009</p>
+      <ul>
+        <li>Atuei em suporte técnico de informática.</li>
+      </ul>
+      <h2>HABILIDADES</h2>
+      <div class="skills">
+        <p><strong>Hard Skills Técnicas:</strong> análise de processos; implantação e sustentação de ERP; integração de sistemas e APIs REST; desenvolvimento com Angular, TypeScript, JavaScript e Node.js; SQL, PL/SQL e PL/pgSQL; WMS; rastreabilidade e conciliação de dados; dashboards e BI; infraestrutura de redes e servidores.</p>
+        <p><strong>Ferramentas:</strong> Express, Metabase, Socket.IO/WebSocket, ESP32, Nginx, systemd, PowerShell e Bash; deploy com releases versionados e rollback; impressoras térmicas e leitores de códigos de barras.</p>
+        <p><strong>Soft Skills:</strong> análise e resolução de problemas; comunicação com usuários e equipes técnicas; coordenação de suporte; treinamento de clientes; tradução de necessidades operacionais em soluções; articulação com responsáveis técnicos.</p>
+      </div>
+      <h2>INFORMÁTICA</h2>
+      <ul>
+        <li><strong>Bancos de dados:</strong> PostgreSQL, Oracle 11g/XE, MySQL e Firebird.</li>
+        <li><strong>Sistemas operacionais:</strong> Linux, CentOS, Windows e Windows Server.</li>
+        <li><strong>Cloud:</strong> AWS EC2.</li>
+        <li><strong>Monitoramento:</strong> Zabbix e monitoramento de SAP Basis; Prometheus e Grafana no projeto industrial.</li>
+        <li><strong>ERP:</strong> ARES ERP, BaseERP e ERP da ADM LATAM; integração com Seven.</li>
+        <li><strong>Office:</strong> Microsoft 365/Office 365, Excel, Word, PowerPoint, Outlook, LibreOffice e OpenOffice.</li>
+      </ul>
+      <h2>FORMAÇÃO ACADÊMICA</h2>
+      <p><strong>Tecnologia em Redes de Computadores - IAPEC, Paraná | fev/2008 - dez/2010</strong></p>
+      <h2>IDIOMAS E INFORMAÇÕES COMPLEMENTARES</h2>
+      <p>Português nativo | Inglês intermediário | CNH B<br>Disponibilidade para viagens e mudança de residência.</p>
+    </div>
+  </section>
+  </main>
+</body>
+</html>
